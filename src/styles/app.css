@@ -1,0 +1,72 @@
+.btn-form {
+    margin-top: 10px;
+}
+
+.writer-container {
+    margin: 0 auto;
+    max-width: 1020px;
+    height: 80vh;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.btn-shownotif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19%;
+}
+
+.last {
+    margin-bottom: 20px;
+}
+
+#input-content {
+    height: calc(100vh - 75px);
+    width: 100%;
+    font-size: 1.25em;
+    resize: none;
+}
+
+.narration-item, .avatar-name, .avatar-name-right {
+    color: gray;
+}
+
+.narration-item {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.conversation-item {
+    margin-top: 15px;
+}
+
+.avatar-name, .avatar-name-right {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: bold; 
+}
+
+.avatar-name-right {
+    text-align: right;
+}
+.avatar-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: skyblue;
+}
+
+.avatar-line, .avatar-line-right {
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 5px;
+    padding: 5px;
+    word-wrap: normal;
+}
+
+.avatar-line-right {
+    float: right;
+}
